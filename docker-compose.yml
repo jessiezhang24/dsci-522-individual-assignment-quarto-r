@@ -1,7 +1,7 @@
 services:
   # run jupyter notebook inside jupyter 
   rstudio:
-    image:  ttimbers/dsci-522-individual-assignment-quarto-r:latest
+    image:  ttimbers/dsci-522-individual-assignment-quarto-r:2e4699e
     ports:
       - "8787:8787"
     volumes:
