@@ -29,7 +29,7 @@ docker compose up
 2. Visit a web browser on your computer and type: http://localhost:8787
 
 3. To run the analysis,
-open a terminal and run the following commands:
+open a terminal (from the docker rstudio) and run the following commands:
 
 ```
 Rscript scripts/generate_figures.R --input_dir="data/00030067-eng.csv" \
